@@ -11,7 +11,7 @@ Dokumentasi ini menjelaskan cara menginstal, menjalankan, dan menguji aplikasi, 
 4. [Struktur Proyek](#struktur-proyek)
 5. [Menjalankan Aplikasi](#menjalankan-aplikasi)
 6. [Pengujian dengan Postman](#pengujian-dengan-postman)
-7. [Catatan Error / Troubleshooting](#error)
+7. [Catatan Error](#Catatan-Error)
 8. [Kontribusi](#kontribusi)
 
 
@@ -516,7 +516,8 @@ Disini digunakan untuk menjelaskan terkait error di aplikasi sejauh mana :
   server
 - untuk suta mungkin bisa perbaiki/troubleshooting di bagian file backend
 2. Untuk database mungkin sejauh yang saya buat masih berjalan dengan baik tidak ada kendala apapun
-3. Untuk frontend mungkin bisa dicoba oleh tim frontend : andreas, al huda, dan fajri
+3. Untuk frontend mungkin sejauh yang saya coba sudah bisa menampilkan layar login dan register namun saya masih belum 
+   melihat lebih jauh ui nya
 4. untuk ai rekomendasi dari saya bisa menggunakan : grok dan deepsek (diutamakan), chatgpt dan gemini(untuk tambahan)
 
 ## Kontribusi

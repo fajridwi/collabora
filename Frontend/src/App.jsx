@@ -2,11 +2,11 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { AuthProvider } from "./contexts/AuthContext";
-import Login from "./components/Auth/Login";
-import Register from "./components/Auth/Register";
-import ProjectBoard from "./components/Dashboard/ProjectBoard";
-import Navbar from "./components/Shared/Navbar";
-import PrivateRoute from "./components/Shared/PrivateRoute";
+import Login from "./Components/Auth/Login";
+import Register from "./Components/Auth/Register";
+import ProjectBoard from "./Components/Dashboard/ProjectBoard";
+import Navbar from "./Components/Shared/Navbar";
+import PrivateRoute from "./Components/Shared/PrivateRoute";
 
 function App() {
   return (
