@@ -11,7 +11,7 @@ Dokumentasi ini menjelaskan cara menginstal, menjalankan, dan menguji aplikasi, 
 4. [Struktur Proyek](#struktur-proyek)
 5. [Menjalankan Aplikasi](#menjalankan-aplikasi)
 6. [Pengujian dengan Postman](#pengujian-dengan-postman)
-7. [Cara update codingan](#Cara-update-codingan)
+7. [Cara update codingan](#cara-update-codingan)
 8. [Catatan Error](#Catatan-Error)
 9. [Kontribusi](#kontribusi)
 
@@ -526,11 +526,17 @@ git checkout -b fitur-atau-perbaikan
 Setelah kamu selesai melakukan perubahan:
 
 ```bash
+git init
 git add .
 git commit -m "Deskripsi perubahan"
 ```
 5. Push ke Repository Kamu
 ```bash
+git config --global user.name "NAMA"
+git config --global user.email "NAMA@example.com"
+
+git remote add origin https://github.com/awanmh/collabora.git
+
 git push origin fitur-atau-perbaikan
 ```
 6. Buat Pull Request (PR)
