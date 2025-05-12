@@ -11,8 +11,9 @@ Dokumentasi ini menjelaskan cara menginstal, menjalankan, dan menguji aplikasi, 
 4. [Struktur Proyek](#struktur-proyek)
 5. [Menjalankan Aplikasi](#menjalankan-aplikasi)
 6. [Pengujian dengan Postman](#pengujian-dengan-postman)
-7. [Catatan Error](#Catatan-Error)
-8. [Kontribusi](#kontribusi)
+7. [Cara update codingan](#Cara-update-codingan)
+8. [Catatan Error](#Catatan-Error)
+9. [Kontribusi](#kontribusi)
 
 
 ## Fitur Aplikasi
@@ -505,6 +506,43 @@ Gunakan Postman untuk menguji endpoint API backend. Berikut adalah contoh penguj
   - Apakah URL menggunakan prefiks `/api` (misalnya, `/api/auth/login`).
 - Jika mendapatkan HTTP 500, periksa log backend untuk stack trace.
 
+## Cara update codingan ke GITHUB
+### 1. Fork Repository
+Pertama-tama, fork repository ini ke akun GitHub kamu:
+> Klik tombol **Fork** di kanan atas halaman repositori ini.
+
+### 2. Clone Repository Forked ke Lokal
+```bash
+git clone https://github.com/USERNAME_KAMU/collabora.git
+cd collabora
+```
+### 3. Buat Branch Baru
+Disarankan untuk membuat branch baru berdasarkan fitur atau perbaikan yang ingin kamu lakukan:
+
+```bash
+git checkout -b fitur-atau-perbaikan
+```
+4. Lakukan Perubahan dan Commit
+Setelah kamu selesai melakukan perubahan:
+
+```bash
+git add .
+git commit -m "Deskripsi perubahan"
+```
+5. Push ke Repository Kamu
+```bash
+git push origin fitur-atau-perbaikan
+```
+6. Buat Pull Request (PR)
+Buka repository asli (https://github.com/awanmh/collabora)
+```
+Klik tab Pull Requests
+
+Klik New Pull Request
+```
+Pilih branch kamu lalu klik Create Pull Request
+
+Tambahkan deskripsi perubahan dan submit PR
 
 ## Catatan Error
 Disini digunakan untuk menjelaskan terkait error di aplikasi sejauh mana :
