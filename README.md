@@ -506,7 +506,7 @@ Gunakan Postman untuk menguji endpoint API backend. Berikut adalah contoh penguj
   - Apakah URL menggunakan prefiks `/api` (misalnya, `/api/auth/login`).
 - Jika mendapatkan HTTP 500, periksa log backend untuk stack trace.
 
-## Cara update codingan ke GITHUB
+## Cara update codingan
 ### 1. Fork Repository
 Pertama-tama, fork repository ini ke akun GitHub kamu:
 > Klik tombol **Fork** di kanan atas halaman repositori ini.
