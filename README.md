@@ -513,64 +513,41 @@ Pertama-tama, fork repository ini ke akun GitHub kamu:
 
 ### 2. Clone Repository Forked ke Lokal
 ```bash
-git clone https://github.com/USERNAME_KAMU/collabora.git
+git clone https://github.com/awanmh/collabora.git
 cd collabora
 ```
-### 3. Buat Branch Baru
-Disarankan untuk membuat branch baru berdasarkan fitur atau perbaikan yang ingin kamu lakukan:
 
-```bash
-git checkout -b fitur-atau-perbaikan
-```
-4. Lakukan Perubahan dan Commit
+### 3. Lakukan Perubahan dan Commit
 Setelah kamu selesai melakukan perubahan:
 
 ```bash
 git init
-git add .
-git commit -m "Deskripsi perubahan"
 ```
-5. Push ke Repository Kamu
+```bash
+git add .
+```
+```bash
+git commit -m "Deskripsikan perubahan"
+```
+### 4. Push ke Repository Kamu
 ```bash
 git config --global user.name "NAMA"
 git config --global user.email "NAMA@example.com"
-
+```
+```bash
 git remote add origin https://github.com/awanmh/collabora.git
-
 git push origin fitur-atau-perbaikan
 ```
-6. Buat Pull Request (PR)
-Buka repository asli (https://github.com/awanmh/collabora)
-```
-Klik tab Pull Requests
-
-Klik New Pull Request
-```
-Pilih branch kamu lalu klik Create Pull Request
-
-Tambahkan deskripsi perubahan dan submit PR
 
 ## Catatan Error
-Disini digunakan untuk menjelaskan terkait error di aplikasi sejauh mana :
-1. Sejauh ini saya telah membuat full dari Backend, Database, dan Frontend:
-- Untuk error terjadi masih di backend karena program dijalankan menggunakan backend terlebih dahulu
-- Error terjadi bukan di codingan namun ketika program di jalankan ada kendala error yaitu seperti "403 forbidden", 
-  "404 not found" dll
-- kemungkinan coba otak atik bagian backend karena kemungkinan ada kesalahan logika yang menyebabkan terjadi error di 
-  server
-- untuk suta mungkin bisa perbaiki/troubleshooting di bagian file backend
-2. Untuk database mungkin sejauh yang saya buat masih berjalan dengan baik tidak ada kendala apapun
-3. Untuk frontend mungkin sejauh yang saya coba sudah bisa menampilkan layar login dan register namun saya masih belum 
-   melihat lebih jauh ui nya
-4. untuk ai rekomendasi dari saya bisa menggunakan : grok dan deepsek (diutamakan), chatgpt dan gemini(untuk tambahan)
+### Disini digunakan untuk menjelaskan terkait error di aplikasi sejauh mana :
+Penjelasan catatan error akan di jelaskan lebih detail pada branch "fitur-atau-perbaikan"
 
 ## Kontribusi
 Kontribusi KELOMPOK manajemen nilai (collabora):
-1. Setiawan Muhammad :
-- Backend dan Database, serta kerangka frontend sementara
-- Dokumentasi GITHUB
-2. NAMA_KALIAN
-3. NAMA_KALIAN
+1. Setiawan Muhammad (1203230016)
+2. Andreas Nababan (1203230025)
+3. I Made Suta Eka Dharma (1203230072)
 4. NAMA_KALIAN
 5. NAMA_KALIAN
 
