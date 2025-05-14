@@ -13,7 +13,7 @@ Dokumentasi ini menjelaskan cara menginstal, menjalankan, dan menguji aplikasi, 
 6. [Pengujian dengan Postman](#pengujian-dengan-postman)
 7. [Cara update codingan](#cara-update-codingan)
 8. [Catatan Error](#Catatan-Error)
-9. [Kontribusi](#kontribusi)
+9. [Kelompok](#kelompok)
 
 
 ## Fitur Aplikasi
@@ -544,8 +544,8 @@ git push origin fitur-atau-perbaikan
 ### Disini digunakan untuk menjelaskan terkait error di aplikasi sejauh mana :
 Penjelasan catatan error akan di jelaskan lebih detail pada branch "fitur-atau-perbaikan"
 
-## Kontribusi
-Kontribusi KELOMPOK manajemen nilai (collabora):
+## Kelompok
+Anggota KELOMPOK manajemen nilai (collabora):
 1. Setiawan Muhammad (1203230016)
 2. Andreas Nababan (1203230025)
 3. I Made Suta Eka Dharma (1203230072)
