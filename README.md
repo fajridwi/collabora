@@ -52,6 +52,7 @@ Untuk menjalankan Collabora, Anda memerlukan perangkat lunak berikut:
 
 ### Frontend
 - **Node.js**: Versi 16 atau lebih tinggi (termasuk npm).
+- **React.js**: Versi 18 atau lebih tinggi
 - **Text Editor**: Visual Studio Code (disarankan).
 
 ### Pengujian
