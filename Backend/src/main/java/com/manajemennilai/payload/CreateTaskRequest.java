@@ -1,6 +1,6 @@
 // CreateTaskRequest.java
 
-package com.manajemennilai.payload.request;
+package com.manajemennilai.payload;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
